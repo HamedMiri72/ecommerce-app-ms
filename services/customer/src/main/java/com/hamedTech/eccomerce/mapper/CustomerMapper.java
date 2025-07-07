@@ -4,7 +4,9 @@ import com.hamedTech.eccomerce.customer.Customer;
 import com.hamedTech.eccomerce.dto.CustomerRequest;
 import com.hamedTech.eccomerce.dto.CustomerResponse;
 import jakarta.validation.Valid;
+import org.springframework.stereotype.Component;
 
+@Component
 public class CustomerMapper {
     public Customer customerDtoToCustomer(CustomerRequest request) {
 
