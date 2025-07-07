@@ -84,7 +84,7 @@ public class CustomerService {
         return response;
     }
 
-    public Void deleteCustomer(String customerId) {
+    public void deleteCustomer(String customerId) {
 
         var customer = customerRepository.findById(customerId)
                 .orElseThrow(() -> new CustomerNotFoundException(toString().formatted("Customer not Found by provided Id:: %s", customerId)));
