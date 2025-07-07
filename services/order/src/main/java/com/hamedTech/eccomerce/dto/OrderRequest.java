@@ -1,8 +1,6 @@
 package com.hamedTech.eccomerce.dto;
 
 import com.hamedTech.eccomerce.entity.PaymentMethod;
-import com.hamedTech.eccomerce.product.PurchaseRequest;
-import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;

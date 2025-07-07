@@ -2,14 +2,12 @@ package com.hamedTech.eccomerce.entity;
 
 
 import jakarta.persistence.*;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
-@Builder
-@RequiredArgsConstructor
+
+@AllArgsConstructor
 @Data
+@Builder
 @NoArgsConstructor
 @Entity
 public class OrderLine {
